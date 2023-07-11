@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+body {
+    font-family: Lato;
+    font-style: normal;
+}
+
+.container-full {
+    width: 100%;
+
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
 
 .main-div {
     background-color: #E554731A;
@@ -31,58 +45,207 @@
     padding: 20px 43px;
     border: none;
 }
-.left-side h1{
+
+.left-side h1 {
     font-size: 60px;
 
 }
-.second-main-div{
+
+.second-main-div {
     display: flex;
     justify-content: center;
 }
+
 .second-div {
     text-align: center;
     padding-top: 100px;
 
 }
-.second-div h2{
+
+.second-div h2 {
     padding-bottom: 25px;
 
 
 }
 
-.second-div p{
-    padding-bottom: 25px;
+.second-div p {
+    padding: 30px;
 }
 
-.second-main-div div{
+.second-main-div div {
     padding: 0px 20px;
     margin: 0px 20px;
-    
+
 }
-.second-main-div h3{
-padding-top: 15px;
-padding-bottom: 25px;
-text-decoration: underline;
+
+.second-main-div h3 {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-decoration: underline;
 }
-.item-1 img{
-    background: 
-    #f2dee7;
+
+.item-1 img {
+    background:
+        #f2dee7;
 }
-.item-2 img{
+
+.item-2 img {
     background-color: #0597A026;
-    }
-.item-3 img{
+}
+
+.item-3 img {
     background-color: #477D1126;
 }
 
 
 
 
-.second-main-div img{
+.second-main-div img {
     height: 500px;
-    border-top-left-radius: 50% ;
+    border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-   width: 400px;
-   padding: 50px 50px;
-   height: 400px;
+    width: 400px;
+    padding: 50px 50px;
+    height: 400px;
+}
+
+.middle-div {
+    background-color: #E554730D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 150px;
+    text-align: center;
+
+
+
+}
+
+.middle-div h1 {
+    font-size: 40px;
+
+
+}
+
+.middle-right-side button {
+    color: #FFF;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    margin-top: 25px;
+
+}
+
+.middle-div p {
+    padding: 25px 0px;
+}
+
+.middle-left-side {
+    margin: 50px;
+}
+
+.head,
+.head2 {
+    text-align: center;
+    padding: 0px 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+
+.head h1 {
+    padding-bottom: 20px;
+
+}
+
+.head p {
+    padding-bottom: 20px;
+}
+
+
+.middle-second-div {
+    display: flex;
+    margin: 0px 20px;
+    justify-content: center;
+}
+
+.middle-second-div div {
+    padding: 0px 20px;
+}
+
+.head-2 img {
+    width: 106%;
+    margin: 0 0 0 -40px;
+}
+
+.sec-1 {
+    margin: -24% 0 0 0;
+    text-align: center;
+    border-radius: 8px;
+    /* background-image: url("./Flower Asset/Rectangle 9.png"); */
+
+}
+
+.sec-1 h1 {
+    font-size: 44px;
+}
+
+.sec-1 p {
+    margin: 30px;
+    font-size: 23px;
+    color: #858585;
+}
+
+.sec-1 input {
+    width: 790px;
+    padding: 20px;
+    border-radius: 7px;
+    border-color: #fff;
+}
+
+.sec-1 button {
+    color: #FFF;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    margin-top: 25px;
+}
+
+footer {
+    margin-top: 12%;
+    padding: 4% 4% 2% 4%;
+    text-align: center;
+    background-color: #111010;
+    height: 428px;
+    color: #ffffff;
+
+    
+}
+
+footer h1 {
+    color: #E55473;
+    font-size: 51px;
+    padding: 50px;
+}
+
+footer span {
+    color: #ffffff;
+}
+
+footer p {
+    padding: 5px;
+    font-size: 21px;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    color: #FFFFFF66;
+}
+button:hover {
+    background-color: #c01338;
+}
+.middle-second-div img:hover{
+    width: 98%;
 }
